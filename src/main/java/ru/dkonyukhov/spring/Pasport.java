@@ -1,6 +1,5 @@
 package ru.dkonyukhov.spring;
 
-import org.springframework.beans.factory.InitializingBean;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;

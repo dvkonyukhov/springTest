@@ -1,10 +1,12 @@
 package ru.dkonyukhov.spring;
 
 import org.springframework.beans.factory.InitializingBean;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Component
 public class Snils implements Document, InitializingBean {
+    @Value("snils")
     private String id;
 
     @Override

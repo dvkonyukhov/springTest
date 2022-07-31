@@ -8,9 +8,9 @@ import org.springframework.stereotype.Component;
 public class Person {
     private String name;
 
-    //    @Autowired
+//    @Autowired
 //    @Qualifier("snils")
-//    //@Qualifier("pasport")
+//    @Qualifier("pasport")
     private Document document;
 
     public void setName(String name) {
